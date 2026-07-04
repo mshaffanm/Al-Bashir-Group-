@@ -8,7 +8,7 @@ import path from 'path';
 import { createServer as createViteServer } from 'vite';
 import { GoogleGenAI, Type } from '@google/genai';
 import dotenv from 'dotenv';
-import { getSurveys, addSurvey, deleteSurvey, getQuestions, addQuestion, updateQuestion, deleteQuestion } from './db';
+import { getSurveys, addSurvey, deleteSurvey, getQuestions, addQuestion, updateQuestion, deleteQuestion, getAdvisors, addAdvisor, deleteAdvisor } from './src/server/db.js';
 
 dotenv.config();
 
