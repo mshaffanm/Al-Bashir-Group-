@@ -1,0 +1,6 @@
+{
+  "name": "Toyota Survey & CRM Dashboard",
+  "description": "Customer survey and feedback portal with AI-powered automatic review parsing and a comprehensive real-time CRM reporting dashboard for Al-Bashir Group.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
