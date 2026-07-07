@@ -5,11 +5,11 @@
 
 import React, { useState, useEffect } from 'react';
 import { BarChart3, ClipboardList, RefreshCw, Loader2, Lock, KeyRound, ArrowRight } from 'lucide-react';
-import CustomerSurvey from './components/CustomerSurvey.js';
-import CRMDashboard from './components/CRMDashboard.js';
-import { Survey, Question, Advisor } from './types.js';
+import CustomerSurvey from './CustomerSurvey';
+import CRMDashboard from './CRMDashboard';
+import { Survey, Question, Advisor } from './types';
 // @ts-ignore
-import alBashirLogo from './assets/images/al_bashir_logo_1783064957865.jpg';
+import alBashirLogo from './al_bashir_logo_1783064957865 (2).jpg';
 
 export default function App() {
   const [view, setView] = useState<'dashboard' | 'survey'>('dashboard');
